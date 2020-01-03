@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import Header from './components/Header'
 import Shorten from './components/Shorten'
@@ -11,6 +11,10 @@ const shortener = new Shortener({
 })
 function App() {
   const [shortUrl, setShortUrl] = useState({})
+
+  useEffect(() => {
+    document.title = 'Shorten url'
+  })
 
   const shorten = searchValue => {
     const result = shortener.shorten(searchValue)
