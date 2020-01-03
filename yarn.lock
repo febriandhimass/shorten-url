@@ -1241,6 +1241,11 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
+"@studiohyperdrive/shortener@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@studiohyperdrive/shortener/-/shortener-1.0.2.tgz#55952d159046b61b09a0eab5195a7d296cc7c136"
+  integrity sha1-VZUtFZBGthsJoOq1GVp9KWzHwTY=
+
 "@svgr/babel-plugin-add-jsx-attribute@^4.2.0":
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/@svgr/babel-plugin-add-jsx-attribute/-/babel-plugin-add-jsx-attribute-4.2.0.tgz#dadcb6218503532d6884b210e7f3c502caaa44b1"
